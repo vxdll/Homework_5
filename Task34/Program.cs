@@ -20,7 +20,7 @@ void FillRandomArray (int[] arr){
     }
 }
 
-void PrintArr (int [] arr){
+void PrintArr (int[] arr){
     Console.Write("Ваш массив: [ ");
     for (int i = 0; i < arr.Length; i++){
         Console.Write($"{arr[i]} ");
