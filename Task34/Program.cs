@@ -12,7 +12,7 @@ for (int j = 0; j < arr.Length; j++){
     }
 }
 
-Console.WriteLine($"Всего чисел {arr.Length} из которых четных -> {count}");
+Console.WriteLine($"Всего чисел {arr.Length} из которых четных -> {count} ");
 
 void FillRandomArray (int[] arr){
     for ( int i = 0; i < arr.Length; i++){
