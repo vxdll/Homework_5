@@ -1,7 +1,7 @@
 ﻿//Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
 Console.WriteLine("Введите размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
-int [] arr = new int [size];
+int [] arr = new int[size];
 int sum = 0;
 FillRandomArray(arr);
 PrintArr(arr);
@@ -18,7 +18,7 @@ void FillRandomArray (int[] arr){
     }
 }
 
-void PrintArr (int [] arr){
+void PrintArr (int[] arr){
     Console.Write("Ваш массив: [ ");
     for (int i = 0; i < arr.Length; i++){
         Console.Write($"{arr[i]} ");
